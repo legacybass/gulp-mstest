@@ -1,0 +1,29 @@
+{
+  "name": "gulp-mstest",
+  "version": "0.1.0",
+  "description": "Gulp wrapper for executing mstest",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "mstest": "^0.2.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/legacybass/gulp-mstest.git"
+  },
+  "keywords": [
+    "mstest",
+    "gulp"
+  ],
+  "author": "Daniel Beus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legacybass/gulp-mstest/issues"
+  },
+  "homepage": "https://github.com/legacybass/gulp-mstest"
+}
