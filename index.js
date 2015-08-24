@@ -16,6 +16,8 @@ module.exports = function (opts) {
 			return;
 		}
 		
+		gutil.log(gutil.colors.italic(gutil.colors.bold('Running tests in ' + file.path)));
+		
 		try {
 			var msTest = new MSTest();
 			msTest.testContainer = file.path;
