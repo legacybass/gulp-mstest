@@ -26,3 +26,4 @@ Gulp-Mstest has a few minor settings that determine what gets output to the cons
 	 - Example: 'Passed 3/5'
  - quitOnFailed: This causes gulp-mstest to use a gulp plugin error if any of the tests in a dll failed to pass. This is useful when there are multiple test packages that must run and you want to be notified as soon as one fails.
 	 - If errorMessage or errorStackTrace are on, they will be output with the failed message
+- language: if you mstest.exe is non-english, change your language (ie. language='fr'). see mstest to see available language.

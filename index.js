@@ -23,6 +23,7 @@ module.exports = function (opts) {
 			msTest.testContainer = file.path;
 			msTest.details.errorMessage = true;
 			msTest.details.errorStackTrace = true;
+			msTest.language = opts.language;
 			msTest.runTests({
 				eachTest: function (test) {
 					if(opts.outputEachResult) {
